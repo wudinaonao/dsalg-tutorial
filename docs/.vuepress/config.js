@@ -3,7 +3,7 @@ const dsalgJavaHspSC = require('../dsalg-java-hsp')
 module.exports = {
   title: '数据结构与算法 系列教程（笔记）',
   description: '数据结构与算法 系列教程学习笔记',
-  base: '/dsalg-tutorial/', // gh-page 中是增加了项目名
+  base: '/', // gh-page 中是增加了项目名
   dest: 'build/.vuepress/dist',  // build 时构建的文件放在那里？
   host: 'localhost', // dev 的域名
   port: 8080, // dev 的端口
